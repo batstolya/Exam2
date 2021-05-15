@@ -858,3 +858,114 @@
       }
     }
   }
+  .map {
+    display: block;
+    &__inner {
+      width: 100%;
+      height: 700px;
+      background-color: #000;
+      position: relative;
+    }
+    .getintouch {
+      position: absolute;
+      top: 400px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-flow: row wrap;
+      width: 770px;
+      height: 450px;
+      margin-left: auto;
+      margin-right: auto;
+      color: $ctxt;
+      padding: 60px;
+      padding-bottom: 80px;
+      box-sizing: border-box;
+      background-color: #fff;
+      &__title {
+        width: 100%;
+        font-size: 44px;
+        line-height: 22px;
+        text-transform: uppercase;
+        text-align: center;
+        flex-grow: 1;
+        margin-bottom: 55px;
+        hr {
+          margin: 0;
+          margin-left: auto;
+          margin-right: auto;
+          border: none;
+          width: 100px;
+          height: 1px;
+          background-color: $ctxt;
+          margin-bottom: 30px;
+        }
+      }
+      a {
+        color: $ctxt;
+        text-decoration: none;
+      }
+      &__left {
+        flex: 0 0 50%;
+        color: $ctxt;
+        font-size: 18px;
+        line-height: 55px;
+        text-transform: capitalize;
+        p:nth-child(3) {
+          text-transform: none;
+        }
+      }
+      &__right {
+        flex: 0 0 50%;
+      }
+      &__name {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid $ctxt;
+        height: 50px;
+        margin-bottom: 20px;
+        color: $ctxt;
+        font-size: 18px;
+        &:focus {
+            outline: none;
+        }
+        &::placeholder {
+          color: #4b5562;
+          font-size: 18px;
+        }
+       
+      }
+      &__email {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid $ctxt;
+        height: 50px;
+        color: $ctxt;
+        font-size: 18px;
+        margin-bottom: 30px;
+        &:focus {
+            outline: none;
+        }
+      
+        &::placeholder {
+          color: #4b5562;
+          font-size: 18px;
+         
+        }
+      }
+      &__submit {
+        display: block;
+        margin-left: auto;
+        width: 140px;
+        height: 50px;
+        border: 1px solid $ctxt;
+        background-color: transparent;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: $ctxt;
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+  }
