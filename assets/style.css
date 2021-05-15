@@ -473,7 +473,8 @@ p {
   opacity: 0.5;
 }
 
-.section2 .block1__btn p {
+.section2 .block1__btn span {
+  display: block;
   line-height: 50px;
   text-transform: uppercase;
   width: 100%;
@@ -544,7 +545,8 @@ p {
   opacity: 0.5;
 }
 
-.section2 .block2__btn p {
+.section2 .block2__btn span {
+  display: block;
   line-height: 50px;
   text-transform: uppercase;
   width: 100%;
@@ -1168,7 +1170,8 @@ p {
   opacity: 0.5;
 }
 
-.gallery__btn p {
+.gallery__btn span {
+  display: block;
   line-height: 50px;
   text-transform: uppercase;
   width: 100%;
@@ -1680,6 +1683,22 @@ p {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+.getintouch__submit:hover {
+  background-color: #55b7ff;
+}
+
+.gallery__btn:hover span {
+  background-color: #55b7ff;
+}
+
+.block2__btn:hover span {
+  background-color: #55b7ff;
+}
+
+.block1__btn:hover span {
+  background-color: #55b7ff;
 }
 
 @media only screen and (max-width: 650px) {

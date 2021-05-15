@@ -325,7 +325,8 @@
         &:hover {
           opacity: 0.5;
         }
-        p {
+        span {
+            display: block;
           line-height: 50px;
           text-transform: uppercase;
           width: 100%;
@@ -381,7 +382,8 @@
         &:hover {
           opacity: 0.5;
         }
-        p {
+        span {
+          display: block;
           line-height: 50px;
           text-transform: uppercase;
           width: 100%;
@@ -819,7 +821,8 @@
       &:hover {
         opacity: 0.5;
       }
-      p {
+      span {
+        display: block;
         line-height: 50px;
         text-transform: uppercase;
         width: 100%;
@@ -1148,6 +1151,7 @@
       }
     }
   }
+  
   @media only screen and (max-width: 960px) {
     .section1 {
       .header {
@@ -1217,6 +1221,19 @@
         align-items: center;
       }
     }
+  }
+
+  .getintouch__submit:hover {
+      background-color: #55b7ff;
+  };
+  .gallery__btn:hover span {
+    background-color: #55b7ff;
+  }
+  .block2__btn:hover span {
+    background-color: #55b7ff;
+  }
+  .block1__btn:hover span {
+    background-color: #55b7ff;
   }
   @media only screen and (max-width: 650px) {
     .section1 {
