@@ -1151,6 +1151,14 @@
       }
     }
   }
+
+  @media only screen and (max-width: 1170px){
+    .section1 .header__links  {
+   
+        flex-grow: 0;
+  }
+  }
+  
   
   @media only screen and (max-width: 960px) {
     .section1 {
@@ -1159,6 +1167,7 @@
         align-items: center;
         margin: 0;
       }
+      
       .slogan {
         width: 100%;
         margin: 0;
